@@ -1,0 +1,41 @@
+.container {
+  margin : auto;
+  width: 100%;
+  border-radius: 5px;
+  background-color: 
+#5bbd63;
+  padding: 20px;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+input {
+  width:100%;
+  padding:10px;
+  padding-right:0;
+}
+textarea {
+  width:100%;
+  margin:10px;
+  margin-top: 20px;
+  height:150px;
+}
+select {
+  width:100%;
+  padding:10px;
+}
+.radio-label {
+  margin-bottom: .5px;
+}
+.checkbox-label {
+  margin-bottom: .5px;
+}
